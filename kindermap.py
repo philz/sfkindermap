@@ -85,7 +85,7 @@ for name, school in schools:
   drive_drive_transit = c + d + e
   delta = drive_drive_transit - transit_transit
   m = min(transit_transit, drive_drive_transit)
-  if delta < 0:
+  if delta > 0:
     approach = "transit"
   else:
     approach = "drive"
